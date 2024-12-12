@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <charset="UTF-8">
+    <title>Título del Proyecto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sistemas computacionales</h1>
+    <h1>tarea 2</h1>
+	<br>
+    <p>Estas es una página de prueba para que se vea cómo se genera el código y cómo se visualiza.</p>
+
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>A continuación veremos cómo se pueden dividir la página web en secciones y algunos elementos que pueden ser incluidos en estos.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="imagenes">
+            <img src="imagen1.jpg" alt="este">
+            <img src="imagen2.jpeg" alt="nombre ">
+            <img src="imagen3.jpg" alt="puede ">
+            <img src="imagen4.jpg" alt="cambiar">
+            <img src="imagen5.jpg" alt="o no">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+		En esta seccion pondremos un ejemplo de un formulario para que nos contactemos con ellos, el formulario no esta ligado a una BD, por lo que no envia la informacion a ningun lugar, solo es visual
+		<form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="sexo">Sexo:</label><br>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select><br><br>
+
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+
+            <label for="noticias">Deseo recibir noticias:</label>
+            <input type="checkbox" id="noticias" name="noticias"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
